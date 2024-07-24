@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cream">#fbf6ed</color>
+    <color name="darkerCream">#faf3e6</color>
+    <color name="lightGreen">#A4B07E</color>
+    <color name="midGreen">#707C4F</color>
+    <color name="muteGreen">#9CAF88</color>
+    <color name="darkGreen">#424106</color>
+    <color name="yellowGreen">#D4CBBC</color>
+    <color name="mutedPinkBrown">#dbada1</color>
+    <color name="brown">#6D4930</color>
+
+    <color name="mutePink">#dbada1</color>
+    <color name="pink">#F38181</color>
+
+    <!-- experimenting colors -->
+    <color name="navy"> #000066</color>
+    <color name="burgundy">#800020</color>
+    <color name="red">#DC143C</color>
+    <color name="forest"> #228B22</color>
+    <color name="deepPurple">#36013f</color>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card4"
+    tools:context=".ui.generate_wrap.cards.LLMCard">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="16dp" >
+
+       <TextView
+           android:id="@+id/llmTitle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/circular_bold"
+           android:gravity="center_horizontal"
+           android:paddingLeft="10dp"
+           android:paddingTop="24dp"
+           android:paddingRight="10dp"
+           android:text="@string/llmTitle"
+           android:textColor="@color/navy"
+           android:textSize="24sp"
+            />
+
+       <TextView
+           android:id="@+id/llmTitle2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/circular_reg_italic"
+           android:gravity="center_horizontal"
+           android:paddingLeft="8dp"
+           android:paddingTop="40dp"
+           android:paddingRight="8dp"
+           android:text="@string/llmTitle2"
+           android:textColor="@color/deepPurple"
+           android:textSize="22sp" />
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/earth"
+               android:layout_gravity="center"
+               android:contentDescription="@string/llmTitle"/>
+
+           <TextView
+               android:id="@+id/llmListenedCity"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:fontFamily="@font/circular_med"
+               android:gravity="center"
+               android:text="@string/test"
+               android:textSize="22sp"
+               android:textStyle="bold"
+               android:textColor="@color/deepPurple"
+               android:paddingBottom="200dp"/>
+       </RelativeLayout>
+   </LinearLayout>
+
+</FrameLayout>

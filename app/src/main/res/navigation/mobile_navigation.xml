@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_generate_wrap">
+
+    <fragment
+        android:id="@+id/navigation_generate_wrap"
+        android:name="com.example.spotify_wrapped.ui.generate_wrap.GenerateWrapFragment"
+        android:label="@string/title_generate_wrap"
+        tools:layout="@layout/fragment_generate_wrap" />
+
+    <fragment
+        android:id="@+id/navigation_past_wraps"
+        android:name="com.example.spotify_wrapped.ui.past_wraps.PastWrapsFragment"
+        android:label="@string/title_past_wraps"
+        tools:layout="@layout/fragment_past_wraps" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.example.spotify_wrapped.ui.test.TestFragment"
+        android:label="@string/title_test"
+        tools:layout="@layout/fragment_test" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.spotify_wrapped.ui.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/displayPastFragment"
+        android:name="com.example.spotify_wrapped.ui.past_wraps.DisplayPastFragment"
+        android:label="fragment_display_past"
+        tools:layout="@layout/fragment_display_past" />
+
+</navigation>

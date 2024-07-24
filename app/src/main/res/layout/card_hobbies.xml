@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="630dp"
+    android:layout_margin="19dp"
+    android:background="@drawable/card6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <!-- Artist introduction Title -->
+        <TextView
+            android:id="@+id/artistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circular_med"
+            android:gravity="center_horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="8dp"
+            android:text="@string/based_on_your_top_3_artists_listened"
+            android:textColor="@color/navy"
+            android:textSize="24sp" />
+
+        <!-- Top 3 Artists -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <!-- Artist 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist1ImgHobbies"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist1Hobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+            <!-- Artist 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist2ImgHobbies"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist2Hobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+            <!-- Artist 3 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist3ImgHobbies"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist3Hobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- List of 3 Hobbies -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Hobby Introduction Title -->
+            <TextView
+                android:id="@+id/hobbyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:gravity="center_horizontal"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="@string/we_think_you_enjoy"
+                android:textColor="@color/navy"
+                android:textSize="24sp" />
+
+            <!-- Hobby 1 and 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Hobby 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/hobby1Img"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:id="@+id/hobby1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circular_bold"
+                        android:paddingTop="8dp"
+                        android:text="@string/hobby"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <!-- Hobby 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/hobby2Img"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:id="@+id/hobby2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circular_bold"
+                        android:paddingTop="8dp"
+                        android:text="@string/hobby"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Hobby 3 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <ImageView
+                    android:id="@+id/hobby3Img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/hobby3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_bold"
+                    android:paddingTop="8dp"
+                    android:text="@string/hobby"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="630dp"
+    android:layout_margin="19dp"
+    android:background="@drawable/card7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <!-- Artist introduction Title -->
+        <TextView
+            android:id="@+id/artistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circular_med"
+            android:gravity="center_horizontal"
+            android:paddingStart="10dp"
+            android:paddingTop="30dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="12dp"
+            android:text="@string/based_on_your_top_3_artists_listened"
+            android:textColor="@color/navy"
+            android:textSize="24sp" />
+
+        <!-- Top 3 Artists -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <!-- Artist 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist1Img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist1Clothes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+            <!-- Artist 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist2Img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist2Clothes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+            <!-- Artist 3 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artist3Img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/topArtist3Clothes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_reg_italic"
+                    android:paddingTop="8dp"
+                    android:text="@string/artist_name" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- List of 3 Clothing Styles with the title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Clothes Introduction Title -->
+            <TextView
+                android:id="@+id/clothesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:gravity="center_horizontal"
+                android:paddingTop="50dp"
+                android:paddingBottom="15dp"
+                android:text="@string/we_think_you_dress"
+                android:textColor="@color/navy"
+                android:textSize="24sp" />
+
+
+            <!-- Clothes 1,2,3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="50dp"
+                android:orientation="vertical">
+
+                <!-- Clothes 1 and 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!-- Clothes 1 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/clothes1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/circular_bold"
+                            android:text=""
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <!-- Clothes 2 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/clothes2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/circular_bold"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:gravity="center_horizontal"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Clothes 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="24dp">
+
+                    <TextView
+                        android:id="@+id/clothes3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circular_bold"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

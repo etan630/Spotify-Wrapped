@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Spotify_Wrapped</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- menu labels -->
+    <string name="title_generate_wrap">Home</string>
+    <string name="title_test">Test</string>
+    <string name="title_past_wraps">History</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- login -->
+    <string name="signInText">Sign In</string>
+    <string name="signInButton">Connect to Spotify</string>
+    <string name="signInBottomText">This is an app that summarizes\n your Spotify listening history!</string>
+    <string name="createUsernameText">Create a Username"</string>
+    <!-- login_username_page -->
+    <string name="createUsernameButton">Confirm Username</string>
+    <string name="createUsernameBottomText">Thanks for creating an account with us!</string>
+    <!-- generate_wrap -->
+    <string-array name="time_options">
+        <item>1 Month</item>
+        <item>6 Months</item>
+        <item>All Time</item>
+    </string-array>
+    <string name="generate_button">Generate Wrap</string>
+    <!-- guess_top_game -->
+    <string name="topArtistGuess">Who do you think your top artist is?</string>
+    <string name="guessTopButton">Submit Guess</string>
+    <string name="topArtistText">Your Top Artist?</string>
+    <string name="topGenreGuess">What do you think your top genre is?</string>
+    <string name="topGenreText">Your Top Genre?</string>
+    <string name="topSongTextQuestion">Your Top Song?</string>
+    <string name="topSongGuess">What do you think your top song is?</string>
+    <string name="quiz_title">Pop Quiz!</string>
+    <string name="topGameTitle">Can You Guess. . .</string>
+    <!-- llm_card -->
+    <string name="llmTitle">Your music taste took you to a lot of places.</string>
+    <string name="llmTitle2">The one place that listened just like you is. . .</string>
+
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="wrapped_history">Wrapped History</string>
+
+    <!-- hangout LLM -->
+    <string name="hangoutTitle">Your top genre says a lot about you!</string>
+    <string name="hangoutTitle2">These are the type of friends you are most likely to hang out with. . .</string>
+    <!-- artist_recommendation -->
+    <string name="artistRecTitle">New Artists Based on Your Tastes</string>
+
+    <!-- end_wrap -->
+    <string name="save_wrap">Save Wrap</string>
+
+    <!-- artist_recommendation -->
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="artist_name">Artist Name</string>
+
+    <!-- clothes -->
+    <string name="based_on_your_top_3_artists_listened">Based on your top 3 artists listened. . .</string>
+    <string name="we_think_you_dress">We think you dress . . .</string>
+    <string name="edgy">Edgy</string>
+    <string name="preppy">Preppy</string>
+    <string name="trendy">Trendy</string>
+
+    <!-- general_wrap -->
+    <string name="my_wrapped">My Wrapped !</string>
+    <string name="my_top_songs">My Top Songs</string>
+    <string name="good_days">Good Days</string>
+    <string name="sza">SZA</string>
+    <string name="_50">50</string>
+    <string name="energy">Energy:</string>
+    <string name="_8teen">8TEEN</string>
+    <string name="khalid">Khalid</string>
+    <string name="lovely">Lovely</string>
+    <string name="billie_eilish">Billie Eilish</string>
+    <string name="my_top_artists">My Top Artists</string>
+    <string name="adele">Adele</string>
+    <string name="ariana_grande">Ariana Grande</string>
+    <string name="taylor_swift">Taylor Swift</string>
+    <string name="my_top_genres">My Top Genres</string>
+    <string name="pop">Pop</string>
+    <string name="kpop">Kpop</string>
+
+
+    <!-- hangout -->
+    <string name="trait1">trait1</string>
+    <string name="trait2">trait2</string>
+    <string name="trait3">trait3</string>
+
+    <!-- hobby -->
+    <string name="we_think_you_enjoy">We think you enjoy . . .</string>
+    <string name="hobby">hobby</string>
+
+    <!-- lyric_game -->
+    <string name="test">test</string>
+    <string name="guess_the_lyric">Guess The Lyric !</string>
+    <string name="which_lyric_is_from_your_1_top_song">Which lyric is from your #1 top song?</string>
+    <string name="choice">Choice</string>
+    <string name="submit_guess">Submit Guess</string>
+
+    <!-- past generate wrap -->
+    <string name="date">Date</string>
+    <string name="wrapped">Wrap</string>
+
+    <!-- settings -->
+    <string name="new_username">New Username</string>
+    <string name="change_username">Change Username</string>
+    <string name="type">Type</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Log out</string>
+    <string name="settings_header" formatted="true">%1$s\'s Settings</string>
+
+</resources>

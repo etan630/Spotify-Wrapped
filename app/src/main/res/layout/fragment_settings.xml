@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/settings_header"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:text="@string/settings_header"
+        android:textSize="24sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username_input"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/circular_reg"
+        android:hint="@string/new_username" />
+
+    <Button
+        android:id="@+id/change_user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/circular_reg"
+        android:text="@string/change_username"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/delete_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/pink"
+        android:text="@string/delete_account"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/logout"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

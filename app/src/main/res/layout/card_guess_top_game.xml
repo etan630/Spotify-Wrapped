@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card1"
+    tools:context=".ui.generate_wrap.cards.GuessTopGameCard">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <RelativeLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/quiz_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/quiz_title"
+                android:fontFamily="@font/circular_bold"
+                android:paddingTop="10dp"
+                android:textColor="@color/navy"
+                android:textSize="28sp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4AFFFFFF"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topGameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_bold"
+                android:paddingTop="10dp"
+                android:text="@string/topGameTitle"
+                android:textColor="@color/deepPurple"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/topSongTextQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:paddingTop="30dp"
+                android:paddingBottom="5dp"
+                android:text="@string/topSongTextQuestion"
+                android:textColor="@color/deepPurple"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/topSongGuess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/circular_reg"
+                android:hint="@string/topSongGuess"
+                android:inputType="textCapWords"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/topSongCorrectAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/deepPurple"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/topGenreText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:fontFamily="@font/circular_med"
+                android:paddingBottom="5dp"
+                android:text="@string/topGenreText"
+                android:textColor="@color/deepPurple"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/topGenreGuess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/circular_reg"
+                android:hint="@string/topGenreGuess"
+                android:inputType="textCapWords"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/topGenreCorrectAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/deepPurple"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/topArtistText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:fontFamily="@font/circular_med"
+                android:paddingBottom="5dp"
+                android:text="@string/topArtistText"
+                android:textColor="@color/deepPurple"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/topArtistGuess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/circular_reg"
+                android:hint="@string/topArtistGuess"
+                android:inputType="textCapWords"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/topArtistCorrectAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_med"
+                android:layout_gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:text=""
+                android:textColor="@color/deepPurple"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/guessTopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/navy"
+            android:fontFamily="@font/circular_reg"
+            android:text="@string/guessTopButton"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</FrameLayout>
